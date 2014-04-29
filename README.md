@@ -18,7 +18,7 @@ Then ensure that folders exists within this directory like so:
 After this is completed, you must compile the code using the command: "javac *.java". This should compile all of the classes 
 into the current directory.
 Then, you must create the default settings file. To do this, simply run "java Settings". This 
-will create \texttt{./settings/constants.prop} as the default settings file.
+will create "./settings/constants.prop" as the default settings file.
 
 
 Generating Terrain
@@ -26,11 +26,11 @@ Generating Terrain
 
 To create a new map, you must run the command:
 
-java Terrain <NAME> <X_SIZE> <Y_SIZE> <Z_SIZE> <VARIANCE>
+java Terrain NAME X_SIZE Y_SIZE Z_SIZE VARIANCE
 
-This will create a new map that is called <NAME> in the ./maps/ directory. This map will have a two-dimensional 
-width and height of <X_SIZE> and <Y_SIZE> respectively. The <Z_SIZE> parameter indicates the total 
-height that the world can be in the third-dimension. Finally, the <VARIANCE> parameter is a floating point value 
+This will create a new map that is called NAME in the "./maps/" directory. This map will have a two-dimensional 
+width and height of X_SIZE and Y_SIZE respectively. The Z_SIZE parameter indicates the total 
+height that the world can be in the third-dimension. Finally, the VARIANCE parameter is a floating point value 
 that is used in the generation process to define how rough the final landscape is, with the standard value being 1.0.
 
 To alter the biome of the generated landscape is a little more complex. Within the Terrain class and the main 
