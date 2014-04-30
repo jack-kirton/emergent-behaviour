@@ -1,7 +1,7 @@
 emergent-behaviour
 ==================
 
-A simulation inspired by natural processes in the hopes of creating emergent behavioural structures.
+A simulation inspired by natural processes in the hopes of creating emergent behavioural structures. This code was developed as part of a Third Year Project for Computer Science at The University of Warwick.
 
 Basic Initialisation
 --------------------
